@@ -1,0 +1,87 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e3e3e3;
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+}
+
+.card {
+  background: #eaeaea;
+  width: 310px;
+  height: 448px;
+  border-radius: 10px;
+}
+
+.cardUpper {
+  padding: 20px 20px 0px 20px;
+}
+
+.sectionContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+}
+
+.sectionPiece {
+  height: 3px;
+  width: 100%;
+  background-color: gray;
+  border-radius: 4px;
+}
+
+.sectionPieceActive {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 4px;
+}
+
+.title {
+  font-size: 14px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.closeButton img {
+  width: 70%;
+}
+.content {
+  margin-top: 25px;
+}
+
+.circleIcons img {
+  width: 40%;
+}
+
+.percentage {
+  font-size: 64px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.text {
+  font-size: 14px;
+  color: #615d5d;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.cardLower {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardLower img {
+  width: 100%;
+}
